@@ -21,13 +21,13 @@ const hamburger1 = {
 const secondBurger1 = { ...hamburger1 };
 secondBurger1.ingredients[0] = "Salad";
 
-console.log(hamburger1.ingredients[0]); // ?
-console.log(secondBurger1.ingredients[0]); // ?
+console.log(hamburger1.ingredients[0]); // Salad
+console.log(secondBurger1.ingredients[0]); // Salad
 
 // P.S.: Ricordati che gli Array, come gli oggetti, sono dei Reference Type (Tipi di Riferimento)!
 
 //  Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
-//  Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+//  Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice? -- due oggetti
 
 // 🏆 Code Question 3
 
