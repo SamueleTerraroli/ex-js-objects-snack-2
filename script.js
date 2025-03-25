@@ -96,13 +96,13 @@ const secondBurger3 = { ...hamburger3 };
 secondBurger3.maker.restaurant = newRestaurant;
 secondBurger3.maker.name = "Chef Hyur";
 
-console.log(hamburger3.maker.name); // ?
-console.log(secondBurger3.maker.name); // ?
-console.log(hamburger3.maker.restaurant.name); // ?
-console.log(secondBurger3.maker.restaurant.name); // ?
+console.log(hamburger3.maker.name); // Chef Hyur
+console.log(secondBurger3.maker.name); // Chef Hyur
+console.log(hamburger3.maker.restaurant.name); // Hyur's II
+console.log(secondBurger3.maker.restaurant.name); // Hyur's II
 
 // Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
-// Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+// Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice? -- sono stati creati tre oggetti
 
 // 🎯 Code Question 6 (Bonus)
 
