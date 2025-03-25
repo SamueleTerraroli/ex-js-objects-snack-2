@@ -70,8 +70,8 @@ const restaurant = {
   isOpen: false,
 };
 
-// Qual è il metodo migliore per clonare l’oggetto chef, e perché?
-// Qual è il metodo migliore per clonare l’oggetto restaurant, e perché?
+// Qual è il metodo migliore per clonare l’oggetto chef, e perché? -- spread operator perchè permette di clonare anche le funzioni
+// Qual è il metodo migliore per clonare l’oggetto restaurant, e perché? -- structuredClone() perche permette di clonare oggetti annidati
 
 // 🎯 Code Question 5 (Bonus)
 
