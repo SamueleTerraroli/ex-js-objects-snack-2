@@ -9,7 +9,7 @@ console.log(hamburger.name); // Double Cheese Burger
 console.log(secondBurger.name); // Double Cheese Burger
 
 // Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
-// Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+// Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice? -- un solo oggetto con due riferimenti
 
 // 🏆 Code Question 2
 
